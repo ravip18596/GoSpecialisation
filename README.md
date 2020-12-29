@@ -28,6 +28,8 @@ Functions, Methods, Interfaces in Go
 
 - [Function Types](Functions,Methods,Interfaces%20in%20Go/Week2/FunctionTypes.md)
 - [Function as return type](Functions,Methods,Interfaces%20in%20Go/Week2/ReturningFunctions.md)
+- [Variadic and Deferred Functions](Functions,Methods,Interfaces%20in%20Go/Week2/variadicAndDeferred.md)
+- [Object Oriented Programming](Functions,Methods,Interfaces%20in%20Go/Week3/ObjectOrientedProgramming.md)
   
 ### Assignments
 
@@ -38,14 +40,15 @@ Functions, Methods, Interfaces in Go
   - [Linear Kinetics](Functions,Methods,Interfaces%20in%20Go/Week2/LinearKinetics.go)
 
 - **Week3**
-  - [Methods](Functions,Methods,Interfaces%20in%20Go/Week3/week3.go)
+  - [Problem Statement](Functions,Methods,Interfaces%20in%20Go/Week3/problemStatement.md)
+  - [Solution - Methods](Functions,Methods,Interfaces%20in%20Go/Week3/week3.go)
 
 - **Week4**
   - [Interfaces](Functions,Methods,Interfaces%20in%20Go/Week4/interfaces.go)
 
 ### Certificate
 
-![Certificate](https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~TRKXRW8YBJ8E/CERTIFICATE_LANDING_PAGE~TRKXRW8YBJ8E.jpeg)
+Course currently in progress
   
 Getting started with Go
 ------------------

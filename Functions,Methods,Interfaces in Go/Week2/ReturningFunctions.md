@@ -43,3 +43,11 @@ func main() {
 	fmt.Println(Dist2(2,2))
 }
 ```
+
+## Function Environment
+
+- Environment of function include all the variable names defined locally in the function
+- **Closure**
+  - Function + its environment
+  - When functions are passed/returned, their environment comes with them!
+  - In above function `MakeDistOrigin`, o_x and o_y variable are in the closure of fn()

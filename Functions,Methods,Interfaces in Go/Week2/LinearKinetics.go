@@ -41,6 +41,60 @@ fmt.Println(fn(5))
 
 package main
 
-func main() {
+import (
+	"bufio"
+	"fmt"
+	"log"
+	"math"
+	"os"
+	"strconv"
+)
 
+func GenDisplaceFn(a,vo,so float64) func (int) float64 {
+	distFn := func(t int) float64{
+		return so + (vo * float64(t)) + (0.5 * a * math.Pow(float64(t),2.0))
+	}
+	return distFn
+}
+
+func main() {
+	var a,vo,so float64
+	var t int
+	scanner := bufio.NewScanner(os.Stdin)
+	fmt.Println("enter value for acceleration.")
+	if !scanner.Scan(){
+		return
+	}
+	a,err := strconv.ParseFloat(scanner.Text(),64)
+	if err != nil{
+		log.Fatal(err)
+	}
+	fmt.Println("enter value for initial velocity.")
+	if !scanner.Scan(){
+		return
+	}
+	vo,err = strconv.ParseFloat(scanner.Text(),64)
+	if err != nil{
+		log.Fatal(err)
+	}
+	fmt.Println("enter value for initial displacement.")
+	if !scanner.Scan(){
+		return
+	}
+	so,err = strconv.ParseFloat(scanner.Text(),64)
+	if err != nil{
+		log.Fatal(err)
+	}
+
+	fmt.Println("enter value for time in seconds.")
+	if !scanner.Scan(){
+		return
+	}
+	t,err = strconv.Atoi(scanner.Text())
+	if err != nil{
+		log.Fatal(err)
+	}
+
+	fn := GenDisplaceFn(a, vo, so)
+	fmt.Println("displacement travelled after time ",t," is ",fn(t))
 }
