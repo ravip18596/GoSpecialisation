@@ -44,8 +44,8 @@ Functions, Methods, Interfaces in Go
   - [Solution - Methods](Functions,Methods,Interfaces%20in%20Go/Week3/week3.go)
 
 - **Week4**
-  - [Problem Statement](Functions,Methods,Interfaces%20in%20Go/Week4/problemStatement)
-  - [Solution - Interfaces](Functions,Methods,Interfaces%20in%20Go/Week4/Interfaces.go)
+  - [Problem Statement](Functions,Methods,Interfaces%20in%20Go/Week4/problemStatement.md)
+  - [Solution - Interfaces](Functions,Methods,Interfaces%20in%20Go/Week4/interfaces.go)
 
 ### Certificate
 
