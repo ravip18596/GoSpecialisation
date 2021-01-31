@@ -1,6 +1,10 @@
 # GoSpecialisation
 
 ## Courses 
+
+### Specialisation Certificate
+![Certificate](https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~5EHDPV79KJU2/CERTIFICATE_LANDING_PAGE~5EHDPV79KJU2.jpeg)
+
 Concurrency In Golang
 ---------------------
 
@@ -49,7 +53,7 @@ Functions, Methods, Interfaces in Go
 
 ### Certificate
 
-Course currently in progress
+![Certificate](https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~99GPSXAGSZRF/CERTIFICATE_LANDING_PAGE~99GPSXAGSZRF.jpeg)
   
 Getting started with Go
 ------------------
